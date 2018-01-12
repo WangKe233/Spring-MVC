@@ -33,7 +33,19 @@
 		<li><a href="#exceptions">Exception Handling</a></li>
 		<li><a href="#redirect">Redirecting</a></li>
         <li><a href="#async">Async Requests</a></li>
+        <li><a href="#Test">ShowTest</a></li>
     </ul>
+	<div id="Test">
+		<h2>ShowTest</h2>
+		<p>
+			See the <code>org.framework.samles.mvc.test</code>
+		</p>
+		<ul>
+			<li>
+				<a id="wk" class="test"  href="<c:url value="/test"/> ">GET /test</a>
+			</li>
+		</ul>
+	</div>
     <div id="simple">
 		<h2>Simple</h2>
 		<p>

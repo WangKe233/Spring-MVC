@@ -26,8 +26,8 @@ public class RedirectController {
 
 	@RequestMapping(value="/uriTemplate", method=RequestMethod.GET)
 	public String uriTemplate(RedirectAttributes redirectAttrs) {
-		redirectAttrs.addAttribute("account", "a123");  // Used as URI template variable
-		redirectAttrs.addAttribute("date", new LocalDate(2011, 12, 31));  // Appended as a query parameter
+		redirectAttrs.addAttribute("account", "a123456");  // Used as URI template variable
+		redirectAttrs.addAttribute("date", new LocalDate(2017, 12, 31));  // Appended as a query parameter
 		return "redirect:/redirect/{account}";
 	}
 
